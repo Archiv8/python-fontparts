@@ -1,0 +1,24 @@
+pkgbase = python-fontparts
+	pkgdesc = An API for interacting with the parts of fonts during the font development proce
+	pkgver = 0.10.5
+	pkgrel = 1
+	url = https://github.com/robotools/fontparts
+	arch = any
+	license = MIT
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-setuptools-scm
+	makedepends = python-wheel
+	depends = python
+	depends = python-booleanoperations
+	depends = python-defcon
+	depends = python-fontmath
+	depends = python-fontpens
+	depends = python-fonttools
+	depends = python-fs
+	depends = python-lxml
+	depends = python-unicodedata2
+	source = https://files.pythonhosted.org/packages/source/f/fontParts/fontParts-0.10.5.zip
+	sha512sums = c4d1f1a48f3376198c73127b6ba5937fd0966c3a168a10a8c87f7b86a3cfb3b1a3665de752e2b6907464f81897cc92a0fa3fbca2d81e9649cd5e62203c0b4e68
+
+pkgname = python-fontparts
